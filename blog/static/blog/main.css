@@ -50,6 +50,27 @@ ul {
     margin-bottom: 20px;
 }
 
+.astext {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#logout-form {
+    display: inline;
+    height: 10px;
+}
+
+#logout-form button {
+    padding: 0;
+    color: #cbd5db;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
 .article-title {
     color: #444444;
 }
