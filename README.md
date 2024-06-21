@@ -19,6 +19,18 @@
 | LoginView | Узнал что LoginView перестаёт работать в Django 5.0 |
 | JSON | Узнал что с помощью JSONа поступают запросы на фронт |
 
+## Чтобы запустить проект необходимо выполнить следующие действия
+
+```
+virtualenv venv -p python3
+source venv/bin/activate
+pip3 install crispy-bootstrap4
+pip3 install django-crispy-forms
+pip3 install pillow
+pip3 install Django==4.1.0
+python3 manage.py runserver
+```
+
 ## Технологии которые я изучил в ходе выполнения проекта
 
 | Изученные технологии | Процессы |
